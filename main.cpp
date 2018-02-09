@@ -20,20 +20,20 @@ if  (letter>= 'A' && letter<='Z')
 
 
   //when user's entry is between A-Z...
-  cout<<" is an upper case letter!\n";
+  cout<<letter<<" is an upper case letter!\n";
 }
 
 else if (letter>= 'a' && letter<= 'z')
 
 {
   //when user's entry is between a-z...
-  cout<<" is a lower case letter!\n";
+  cout<<letter<<" is a lower case letter!\n";
 }
 
 else { 
 
   //in all other cases...
-  cout<<"?! Pssh. What are you talking about?\n";
+  cout<<letter<<"?! Pssh. What are you talking about?\n";
   }
 
 
